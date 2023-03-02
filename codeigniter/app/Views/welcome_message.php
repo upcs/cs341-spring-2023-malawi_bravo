@@ -96,9 +96,8 @@
             color: rgba(255, 255, 255, .8);
         }
         header .heroe {
-            margin: 0 auto;
-            max-width: 1100px;
-            padding: 1rem 1.75rem 1.75rem 1.75rem;
+            
+        XZBN 
         }
         header .heroe h1 {
             font-size: 2.5rem;
