@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+          body{
+  background-color: #fffafa;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+  background-color: #bbaff1;
+  color: rgb(0, 0, 0);
+  padding: 1.5rem 10%;
+}
+
+.settings{
+  background-color: #ececec;
+  padding: 1.5rem 10%;
+}
+
+
+textarea{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 80%; 
+  height: 28px;
+  font-size: 28px;
+  
+}
+
+
+.filter_btn {
+  background-color: #bbaff1;
+  color: rgb(16, 13, 13);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+  
+
+.filter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff8f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #FFF;}
+
+/* Show the dropdown menu on hover */
+.sort:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.sort:hover .dropbtn {background-color: #3e8e41;}
+
+        </style>
+        <div class="header">
+          <h1>Malawi Gradebook</h1>
+        </div>
+
+
+        
+    </head>
+
+    <body>
+      <div class="settings">
+        <div class="seachbar">
+          <textarea name="search" id="searchbar" cols="100" rows="1"></textarea>
+        </div>
+          
+          <div class="filter"> 
+            <div class="sort">
+              <button class="filter_btn">Filter By:</button>
+              <div class="dropdown-content">
+                <a href="main_menu.html">Name</a>
+                <a href="#">Class</a>
+              </div>
+  
+             
+            </div>
+  
+            <div class="sort">
+              <button class="filter_btn">Sort By:</button>
+              <div class="dropdown-content">
+                <a href="#">Newest</a>
+                <a href="#">Oldest</a> 
+              </div>
+            </div>
+  
+          </div>
+      </div>
+      
+
+        <div class="grades">
+          <img src="Gradesheet.png">
+
+        </div>
+        
+        
+
+        
+    </body>
+
+
+
+
+    </html>
+
